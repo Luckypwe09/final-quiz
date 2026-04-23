@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midterm lecture 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>MIDTERM ACT 3 (IMAGE AND IMAGE MAPS)</h1>
+
+    <h3>1. Image with 2px Border</h3>
+    <img src="photo.jpg" alt="Sample Image" class="border-img">
+
+    <h3>2. 5x5 inch Image</h3>
+    <img src="photo.jpg" alt="5 inch image" class="inch-img">
+
+    <h3>3. Rounded Borders</h3>
+    <img src="photo.jpg" alt="Rounded image" class="rounded-img">
+
+    <h3>4. Custom Rounded Corners</h3>
+    <img src="photo.jpg" alt="Custom rounded" class="custom-rounded">
+
+    <h3>5. Image Link to UE</h3>
+    <a href="https://www.ue.edu.ph" target="_blank">
+        <img src="https://logodix.com/logo/2077027.png" alt="UE Link" class="link-img">
+    </a>
+
+    <h3>6. Float Image (float:left)</h3>
+    <img src="photo.jpg" alt="Float image" class="float-img">
+    <p>This text wraps around the floating image.</p>
+
+    <div class="clear"></div>
+
+    <h3>7. Hover Effect (Zoom)</h3>
+    <img src="photo.jpg" alt="Hover image" class="hover-img">
+
+    <h3>8. Box Shadow Effect</h3>
+    <img src="photo.jpg" alt="Shadow image" class="shadow-img">
+
+    <h3>9. Shape Outside Circle</h3>
+    <img src="photo.jpg" alt="Shape circle" class="shape-circle">
+    
+
+    <div class="clear"></div>
+
+    <h3>10. Shape Outside Polygon</h3>
+    <img src="photo.jpg" alt="Polygon shape" class="shape-polygon">
+    
+
+    <div class="clear"></div>
+
+    <h3>11. Mask Image (Marie Kyle Leizel M. Caindec - Favorite Place)</h3>
+    <img src="https://images.squarespace-cdn.com/content/v1/6507df2246905b20c408b2bc/8ec7584a-76cb-4262-b4c8-fa5334bff05c/Siargao+-+title.jpg" alt="Masked photo" class="mask-img">
+
+    <h3>12. Image Map (3 Shapes)</h3>
+    <img src="shapes.jpg" usemap="#shapemap" alt="Shapes Map">
+
+    <map name="shapemap">
+        <area shape="rect" coords="19,16,87,79" href="square.html" alt="Square">
+        <area shape="poly" coords="108,74,143,11,181,75" href="triangle.html" alt="Triangle">
+        <area shape="circle" coords="236,47,69" href="circle.html" alt="Circle">
+    </map>
+
+    <h3>13. Image Map with 2 Links</h3>
+    <img src="shapes.jpg" usemap="#map2" alt="Two Links Map">
+
+    <map name="map2">
+        <area shape="rect" coords="19,16,87,79" href="square.html" alt="Square">
+        <area shape="circle" coords="236,47,69" href="circle.html" alt="Circle">
+    </map>
+</body>
+
+</html>

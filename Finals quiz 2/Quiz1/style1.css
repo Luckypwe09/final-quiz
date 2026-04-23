@@ -1,0 +1,76 @@
+h1{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #fafafa;
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.548);
+    width: 50%;
+    margin: auto;
+    margin-top: 3%;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.container1 {
+    text-align: center;
+    font-size: large;
+    width: 50%;
+    margin: auto;
+    margin-top: 3%;
+    overflow: hidden;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.164);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    background-position: center;
+    border-radius: 20px;
+    position: relative;
+    backdrop-filter: blur(19px); 
+
+}
+
+.container1 h4{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px 0 5px ;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.container1 p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px 0 15px ;
+
+}
+
+.button {
+    margin-top: 5%;
+    background-color: white; 
+    border: none;             
+    color: rgb(0, 0, 0);             
+    padding: 15px 32px;        
+    text-align: center;        
+    text-decoration: none;     
+    display: inline-block;     
+    font-size: 16px;           
+    margin: 4px 2px;           
+    cursor: pointer;          
+    border-radius: 8px;       
+    transition-duration: 0.4s; 
+  }
+
+#Siargao{
+    max-width: 100%;
+    height: 350px;
+    border-style: solid;
+    border-color:bisque;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+h4{
+    color: #000;
+    text-align: center; 
+}

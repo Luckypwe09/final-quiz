@@ -1,0 +1,71 @@
+.border-img {
+  border: 2px solid black;
+}
+
+.inch-img {
+  width: 480px;
+  height: 480px;
+}
+
+.rounded-img {
+  border-radius: 20px;
+}
+
+.custom-rounded {
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.link-img {
+  width: 200px;
+}
+
+.float-img {
+  float: left;
+  width: 150px;
+  margin: 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+.hover-img {
+  width: 200px;
+  transition: 0.3s;
+}
+.hover-img:hover {
+  transform: scale(1.2);
+}
+
+.shadow-img {
+  width: 200px;
+  box-shadow: 10px 10px 15px gray;
+}
+
+.shape-circle {
+  float: left;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  shape-outside: circle();
+  margin: 10px;
+}
+
+.shape-polygon {
+  float: left;
+  width: 200px;
+  height: 200px;
+  shape-outside: polygon(0 0, 100% 0, 0 100%);
+  clip-path: polygon(50% 0, 0 100% , 100% 100%);
+  margin: 10px;
+}
+
+.mask-img {
+  width: 50%;
+  -webkit-mask-image: url("mask.png");
+  mask-image: url("mask.png");
+  mask-repeat: no-repeat;
+
+}
+
